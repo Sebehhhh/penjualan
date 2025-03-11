@@ -1,10 +1,10 @@
 <footer class="footer">
     <div class="footer clearfix mb-0 text-muted">
         <div class="float-start">
-            <p>© {{ date('Y') }} Web Inspection PLN Indonesia Power UBP Asam Asam. All rights reserved.</p>
+            <p>© {{ date('Y') }} Sistem Penjualan Bibit Sawit. Seluruh hak cipta dilindungi undang-undang.</p>
         </div>
         <div class="float-end">
-            <p>Crafted by UBP Asam Asam Team</p>
+            <p>Dibuat oleh Tim Penjualan Bibit Sawit</p>
         </div>
     </div>
 </footer>

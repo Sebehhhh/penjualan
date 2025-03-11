@@ -56,6 +56,12 @@
                         <span>Kategori</span>
                     </a>
                 </li>
+                <li class="sidebar-item {{ request()->routeIs('admin.products.index') ? 'active' : '' }}">
+                    <a href="{{ route('admin.products.index') }}" class="sidebar-link">
+                        <i class="bi bi-box-seam"></i>
+                        <span>Produk</span>
+                    </a>
+                </li>
             </ul>
         </div>
         <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
